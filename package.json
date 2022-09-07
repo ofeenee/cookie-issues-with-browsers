@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "next",
+		"@sveltejs/kit": "^1.0.0-next.470",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.6",
@@ -21,6 +21,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@types/cookie": "^0.5.1"
+		"@types/cookie": "^0.5.1",
+		"cookie": "^0.5.0"
 	}
 }
